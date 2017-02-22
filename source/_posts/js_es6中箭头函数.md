@@ -1,5 +1,5 @@
 title: ES6箭头函数
-tags: javascript
+tags: es6
 categories: 前端
 toc: true
 date: 2016-8-15 12:12:12

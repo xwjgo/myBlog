@@ -1,5 +1,5 @@
 title: 迭代器和for-of循环
-tags: javascript
+tags: es6
 categories: 前端
 toc: true
 ---
