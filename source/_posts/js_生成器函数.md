@@ -1,5 +1,5 @@
 title: Generators
-tags: javascript
+tags: es6
 categories: 前端
 toc: true
 date: 2016-8-01 12:12:12
