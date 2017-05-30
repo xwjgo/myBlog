@@ -128,7 +128,7 @@ es6模块是可以和commonJS以及AMD模块实现交互的，比如在一个nod
 import _ from 'lodash';
 
 // 这是因为在commondJS或者AMD模块中都有一个默认导出，上面代码等同与
-import {default as \_} from 'lodash';
+import {default as _} from 'lodash';
 {% endcodeblock %}
 
 所以，如果我们想让模块有一个默认导出，方法很简单，**它与其他的导出唯一的不同之处在于导出api的名称被定为`default`**。
@@ -152,10 +152,10 @@ export {xwj as default};
 
 // 注意
 // export default后面可以跟声明，但是不可以跟表达式
-exoport default const xwj = {};             // 赋值表达式，错误
-export fefualt let sayHello = () => {};     // 函数表达式，错误
+export default const xwj = {};             // 赋值表达式，错误
+export default let sayHello = () => {};     // 函数表达式，错误
 export default function () {};  // 函数声明，正确
-export defalut class {};        // 类声明，正确
+export default class {};        // 类声明，正确
 {% endcodeblock %}
 
 现在我们就可以想导入lodash时候一样导入xwj对象了，不需要使用大括号也不用`import *`。
