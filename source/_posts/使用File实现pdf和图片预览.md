@@ -30,7 +30,7 @@ html:
 </div>
 {% endcodeblock %}
 
-由于input标签太丑了，所以我们将它通过`display:none`来隐藏，仅留下label。当然，我们也可以使用另外的一个标签比如<a>,在点击<a>标签时触发input的click事件。
+由于input标签太丑了，所以我们将它通过`display:none`来隐藏，仅留下label。当然，我们也可以使用另外的一个标签比如a标签,在点击a标签时触发input的click事件。
 
 javascript:
 
@@ -91,7 +91,7 @@ function createPreviewItem (newNode) {
 
 File为我们提供了Web访问文件信息的接口。File对象通常来自与FileList对象，而FileList对象可以通过以下两种常用方式得到：
 
-- <input>标签的files属性
+- input标签的files属性
 - 用户拖放文件到web中产生的[DataTransfer](https://developer.mozilla.org/en-US/docs/Web/API/DataTransfer)对象
 
 另外，每个File对象都是[Blob](https://developer.mozilla.org/en-US/docs/Web/API/Blob)对象的特例，因此File继承了Blob的属性，它俩都可以当作参数传入`FileReader`、`URL.createObjectURL()`、`XMLHttpRequest.send()`中。
