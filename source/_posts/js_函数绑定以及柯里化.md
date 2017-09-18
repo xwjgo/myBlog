@@ -2,6 +2,7 @@ title: 函数柯里化
 tags: javascript
 categories: 前端
 toc: true
+date: 2016-7-1 12:12:12
 ---
 
 ## 什么是函数的柯里化？

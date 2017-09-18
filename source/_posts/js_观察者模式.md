@@ -1,6 +1,7 @@
 title: 观察者模式
 tags: javascript
 categories: 前端
+date: 2016-6-25 12:12:12
 toc: true
 ---
 

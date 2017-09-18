@@ -2,6 +2,7 @@ title: 继承的几种模式
 tags: javascript
 categories: 前端
 toc: true
+date: 2016-7-18 12:12:12
 ---
 
 ECMAScript中的继承重要是依靠**原型链**来实现的。

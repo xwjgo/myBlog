@@ -2,6 +2,7 @@ title: 迭代器和for-of循环
 tags: es6
 categories: 前端
 toc: true
+date: 2016-7-14 12:12:12
 ---
 
 ## 从数组遍历谈起
