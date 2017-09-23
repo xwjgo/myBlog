@@ -1,6 +1,6 @@
 title: react基础
 tags: react
-categories: 前端
+categories: react
 toc: true
 date: 2017-2-23 12:12:12
 ---

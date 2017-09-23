@@ -1,6 +1,6 @@
 title: webpack打包react应用
 tags: [webpack, react]
-categories: 前端
+categories: react
 toc: true
 date: 2017-3-1 12:12:12
 ---

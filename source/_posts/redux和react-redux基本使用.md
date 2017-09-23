@@ -1,6 +1,6 @@
 title: redux和react-redux基本应用
 tags: [react, redux, react-redux]
-categories: 前端
+categories: react
 toc: true
 date: 2017-2-25 12:12:12
 ---
